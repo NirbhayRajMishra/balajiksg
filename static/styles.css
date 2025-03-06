@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1{
+    color: chocolate;
+    margin-top: 10px;
+    border: #ff0022;
+    border-style: double;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-right: 66px;
+    font-size: 25px;
+    border-style: outset;
+    }
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+    margin-right: 66px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+#query {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+
+thead {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.message {
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.image-container {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.top-image {
+    max-width: 100%; /* Ensures the image scales for responsiveness */
+    height: auto;    /* Maintains the aspect ratio */
+    margin: 10px auto; /* Optional spacing */
+}
+
+@media (max-width: 768px) {
+    .top-image {
+        max-height: 200px; /* Smaller height for smaller screens */
+        border-radius: 5px; /* Less rounded corners */
+    }
+}
+
+.footer {
+    border-top: 1px solid #e5e7eb;
+    padding: 1rem 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-container {
+    background-color: #6b7280;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+.text-gray-600 {
+    color: #d94f4f;
+    margin-top: 50px;
+}
+.social-icons a {
+    color: #4b5563;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #1f2937;
+}
